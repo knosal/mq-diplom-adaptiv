@@ -11,41 +11,43 @@
 
             <!-- POPUP -->
             <div class="popup-content visually-hidden ">
-                <form class="popup-content-form" action="#" method="get">
-                    <h2 class="page-title">
-                        <a class="page-title-link" href="#0">Ваш фидбэк</a>
-                    </h2>
-                    <button class="popup-modal-close " aria-label="Закрыть форму обратной связи" type="button" tabindex="1"></button>
-                    <p class="popup-content-visit">
-                        <label class="popup-form-group">
-                            <span class="popup-form-init">Как часто вы заходите на сайт?</span>
-                            <select class="popup-text popup-decoration popup-decoration-radio">
-                                <option selected>Почти каждый день</option>
-                                <option>Раз в несколько дней</option>
-                                <option>Раз в несколько недель</option>
-                                <option>Несколько раз в год</option>
-                            </select>
-                    </label>
-                    </p>
-                    <p class="popup-content-mailing">
-                        <span class="popup-form-init">Вы подписаны на e-mail рассылку?</span>
-                        <label class="popup-form-group-radio">
-                            <input class="popup-mailing" type="radio" id="mailing-yes" name="mailing-yes" checked>
-                            <span class="radio-group-text">Да</span>
+               <div class="popup-wrapper">
+                    <form class="popup-content-form" action="#" method="get">
+                        <h2 class="page-title">
+                            <a class="page-title-link" href="#0">Ваш фидбэк</a>
+                        </h2>
+                        <button class="popup-modal-close " aria-label="Закрыть форму обратной связи" type="button" tabindex="1"></button>
+                        <p class="popup-content-visit">
+                            <label class="popup-form-group">
+                                <span class="popup-form-init">Как часто вы заходите на сайт?</span>
+                                <select class="popup-text popup-decoration popup-decoration-radio">
+                                    <option selected>Почти каждый день</option>
+                                    <option>Раз в несколько дней</option>
+                                    <option>Раз в несколько недель</option>
+                                    <option>Несколько раз в год</option>
+                                </select>
                         </label>
-                        <label class="popup-form-group-radio">
-                            <input class="popup-mailing" type="radio" id="mailing-no" name="mailing-no">
-                            <span class="radio-group-text">Нет</span>
-                        </label>
-                    </p>
-                    <p class="popup-content-message">
-                        <label class="popup-form-group">
-                            <span class="popup-form-init">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-                            <textarea class="popup-message popup-decoration" name="message" cols="20" rows="5" placeholder="Может, больше рецептов?" required></textarea>
-                        </label>
-                    </p>
-                    <button class="btn-popup" type="submit" aria-label="Кнопка отправить"><span class="btn-text">Отправить</span></button>
-                </form>
+                        </p>
+                        <p class="popup-content-mailing">
+                            <span class="popup-form-init">Вы подписаны на e-mail рассылку?</span>
+                            <label class="popup-form-group-radio">
+                                <input class="popup-mailing" type="radio" id="mailing-yes" name="mailing-yes" checked>
+                                <span class="radio-group-text">Да</span>
+                            </label>
+                            <label class="popup-form-group-radio">
+                                <input class="popup-mailing" type="radio" id="mailing-no" name="mailing-no">
+                                <span class="radio-group-text">Нет</span>
+                            </label>
+                        </p>
+                        <p class="popup-content-message">
+                            <label class="popup-form-group">
+                                <span class="popup-form-init">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+                                <textarea class="popup-message popup-decoration" name="message" cols="20" rows="5" placeholder="Может, больше рецептов?" required></textarea>
+                            </label>
+                        </p>
+                        <button class="btn-popup" type="submit" aria-label="Кнопка отправить"><span class="btn-text">Отправить</span></button>
+                    </form>
+                </div>
             </div>
 
             <!-- ШАПКА -->
@@ -539,6 +541,29 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- TEST -->
+<!--                         <div class="product-item">
+                            <div class="product-item-goods">
+                                <picture>
+                                    <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 360px)">
+                                    <source srcset="images/shop-item-tablet3.jpg" media="(max-width: 1199px)">
+                                    <img class="product-item-image" src="images/shop-item-desk3.jpg" srcset="images/shop-item-desk3.jpg" alt="Аксесуары для интерьера">
+                                </picture>
+                            </div>
+                            <div class="product-item-description">
+                                <h4 class="product-item-title"><a class="title-entry-link" href="#0"> Шестиугольная рамка</a></h4>
+                                <p class="product-preview">
+                                    Необычная рамка для украшения дома из видео <a class="product-preview-link" href="#0">«Как сделать рамку из подручных средств за 30 минут»</a>.
+                                </p>
+                                <div class="product-buying-goods">
+                                    <div class="product-price">
+                                        <span class="old-price">500 &#x20bd;</span><br>
+                                        <span class="purchase-price">400 &#x20bd;</span>
+                                    </div>
+                                    <button class="btn-shopping" type="submit" aria-label="Кнопка подписки">В магазин</button>
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
